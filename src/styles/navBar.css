@@ -1,0 +1,97 @@
+#navBar {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  background-color: #343a40;
+}
+#navBar button {
+  margin-right: 10px;
+  padding: 0.9em;
+  position: relative;
+  background: #343a40;
+  padding: 0.2em 0.2em;
+  border: none;
+  border-style: none;
+  color: #95cd41;
+  width: 110px;
+  border: 1px solid #fff;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: all 400ms ease;
+}
+#navBar button:hover {
+  border: none;
+  background: #95cd41;
+  color: #343a40;
+  transition: all 400ms ease;
+}
+#linkActive {
+  width: 70% !important;
+  margin: 0 auto !important;
+}
+.navbar img {
+  max-width: 70px;
+  max-height: 70px;
+  transition: all 400ms ease;
+}
+.navbar img:hover {
+  max-width: 70px;
+  max-height: 70px;
+  transform: rotate3d(1, 2, 3, 10deg);
+  transition: all 400ms ease;
+}
+.dropdown-menu {
+  background-color: #95cd41 !important;
+}
+.navbar-expand-lg {
+  background-color: #f78812;
+  color: #fff;
+}
+.dropdown-item-active {
+  color: #fff !important;
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+.dropdown-item {
+  color: #000000 !important;
+}
+
+#navbarSupportedContent a {
+  color: #95cd41;
+  margin: 0 auto !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#navbarSupportedContent li {
+  margin-right: 10px;
+}
+#navbarSupportedContent a span {
+  margin-right: 5px;
+}
+#navbarSupportedContent a:hover {
+  transition: all 400ms ease;
+  color: #fff;
+}
+#icon-collapse {
+  background-color: #95cd41;
+  color: #fff !important;
+}
+#navbarSupportedContent {
+  float: right !important;
+}
+@media screen and (max-width: 998px) {
+  #linkActive {
+    width: 100px !important;
+    margin: 0 !important;
+  }
+}

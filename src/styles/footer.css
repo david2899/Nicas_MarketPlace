@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.footer {
+  padding: 5px;
+  width: 100%;
+  background-color: black;
+}
+.contet-section {
+  margin: 8px;
+  color: #fff;
+  text-align: center;
+}
+.text-social {
+    font-size: 1rem;
+}
+.with-love-by {
+    margin-bottom: 5px;
+}
+.logo-flow {
+    margin: 0 auto; 
+}
+@media screen and (min-width: 500px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}

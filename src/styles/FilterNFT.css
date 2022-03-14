@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.section-filter {
+  padding: 8px;
+  align-items: center;
+  width: 20%;
+  height: 100vh;
+  position: relative;
+  display: block;
+  margin-right: 18px;
+  /* background-color: rgb(214, 139, 139); */
+}
+.outlined-basic {
+  width: 100%;
+}
+.container-styky {
+  width: 100%;
+  position: fixed;
+  left: 5;
+}
+.interior {
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  max-width: 300px;
+}
+.interior input {
+  width: 170px;
+}
+.container-styky h4 {
+  margin-top: 15px;
+  width: 200px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-bottom: 1px solid #343a40;
+  font-family: "Shadows Into Light", cursive;
+}
+.form-check-label {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Teko", sans-serif;
+}
+@media screen and (max-width: 853px) {
+  .container-styky {
+    display: none !important;
+  }
+  .section-filter {
+    position: fixed;
+    margin-right: 0px;
+  }
+}

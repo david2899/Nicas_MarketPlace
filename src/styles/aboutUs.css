@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.content {
+    margin-top: 90px;
+}
+.creator-text {
+    width: 150px;
+    font-family: "Shadows Into Light", cursive; 
+    margin: 0 auto !important;
+}
+.creator-text h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.icon-blockChain {
+    color: #95cd41;
+}
+#divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #0c0d0e;
+}
+.content-details-about {
+    padding: 15px;
+    /* background-color: pink; */
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto !important;
+}
+.p-information {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    text-align: justify;
+}
+.img-david {
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 15px;
+}
+.skills {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+.p-front-end {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 1400px) {
+    .wrap-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 390px) {
+    #subtitle-bothers {
+        margin-left: 0 !important;
+    }
+}

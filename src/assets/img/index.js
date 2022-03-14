@@ -1,0 +1,4 @@
+export const buildNFTImg = "https://nextbigwhat.com/wp-content/uploads/2021/12/virtual-land-sold-for-record-2-4-million-in-metaverse.jpeg"
+export const collectImg = "https://gamacrypto.com/wp-content/uploads/2021/12/1639786360_Bitwise-lanza-una-nueva-forma-para-invertir-en-NFT-sin.png"
+export const imgBackSingUp = "https://diariobarricada.com/wp-content/uploads/2019/07/incrementa-turistas-ometepe.jpg"
+export const imgSingUp = "https://elcomercio.pe/resizer/SsNgMvBCeV47UWgo6ACs0uiDKVA=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/IVDMQ4F4VBFPNDKGSOI5IDXZD4.PNG"

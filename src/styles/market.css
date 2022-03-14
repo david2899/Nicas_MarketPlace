@@ -1,0 +1,111 @@
+.content-market {
+  width: 100%;
+  margin-top: 90px !important;
+  display: inline-flex;
+  height: auto;
+  position: relative;
+  padding: 5px;
+}
+
+.section-NFTs {
+  margin-right: 10px !important;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  width: 80%;
+}
+.card-nft {
+  border-radius: 15px;
+  max-width: 250px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center !important;
+  transition: all 400ms ease;
+  cursor: pointer;
+}
+#img-card-nft {
+  width: 100%;
+  border-radius: 15px !important;
+  max-height: 200px;
+}
+.card-nft button {
+  padding: 0.9em;
+  position: relative;
+  background: #95cd41;
+  padding: 0.2em 0.2em;
+  width: 100px;
+  border: none;
+  color: #343a40;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.card-nft button:hover {
+  background: #343a40;
+  color: #95cd41;
+  border: 1px solid #fff;
+  transition: all 400ms ease;
+}
+.card-nft:hover {
+  transform: rotate3d(1, 1, 2, 2deg);
+  transition: all 400ms ease;
+}
+#img-card-nft {
+  width: 100%;
+  border-radius: 15px !important;
+  max-height: 200px;
+}
+@media screen and (max-width: 600px) {
+  .card-nft {
+    border-radius: 15px;
+    width: 200px;
+    margin-right: 300px;
+    margin: 10px;
+    justify-content: center !important;
+    transition: all 400ms ease;
+    cursor: pointer;
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-body {
+    padding: 1rem !important;
+  }
+  .card-nft button {
+    padding: 0.4em;
+    position: relative;
+    background: #95cd41;
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: #343a40;
+    font-size: 0.8em;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card-nft {
+    border-radius: 15px;
+    width: 150px;
+    margin-right: 100px;
+    margin: 10px;
+    justify-content: center !important;
+    transition: all 400ms ease;
+    cursor: pointer;
+  }
+  .card-title {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 853px) {
+  .section-NFTs {
+    width: 100%;
+  }
+}
