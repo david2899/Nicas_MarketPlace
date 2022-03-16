@@ -2,9 +2,9 @@
 
 .content-video {
   position: relative;
-  margin-top: 70px;
+  margin-top: 80px;
   width: 100%;
-  height: 500px;
+  height: 120px;
   text-align: center;
 }
 .title-img {
@@ -13,7 +13,7 @@
   text-align: center;
   top: 10%;
   width: 100%;
-  color: #fff;
+  color: rgb(52 58 64);
   font-size: 4rem;
   font-weight: bold;
   font-family: "Shadows Into Light", cursive;
@@ -24,7 +24,7 @@
   object-fit: cover;
   overflow: hidden;
 }
-.title-activities{
+.title-activities {
   font-size: 2rem;
   margin-top: 1rem;
   margin-left: 1.5rem;
@@ -42,7 +42,8 @@
   max-width: 350px;
   min-width: 100px;
   transform: rotate3d(7, -4, 4, 78deg);
-  box-shadow: 50px 70px 50px rgb(124, 37, 37), 100px 120px 50px green, 160px 160px 50px yellow;
+  box-shadow: 50px 70px 50px rgb(124, 37, 37), 100px 120px 50px green,
+    160px 160px 50px yellow;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -64,21 +65,47 @@
   font-family: "Shadows Into Light", cursive;
   font-size: 2rem;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 2560px) {
   .box {
     width: 200px !important;
-    margin: 0 2rem !important;
+    margin: 10px 1rem !important;
   }
 }
 @media screen and (max-width: 500px) {
   .box {
-    width: 100px !important;
-    margin: 0 1rem !important;
+    width: 100% !important;
+    margin: 10px 1rem !important;
   }
   .box h5 {
     margin-top: 5px;
     font-weight: 500;
     font-family: "Shadows Into Light", cursive;
-    font-size: 0.1rem;
+    font-size: 2rem;
   }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+  .title-img {
+    font-size: 3rem !important;
+  }
+}
+
+.row {
+   margin-right: 0px !important;
+}
+
+.Container-criptos{
+  height: 500px !important;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.Container-criptos::-webkit-scrollbar{
+  display: none;
 }

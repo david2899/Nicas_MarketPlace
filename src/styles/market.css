@@ -104,6 +104,13 @@
     font-size: 0.7rem;
   }
 }
+
+@media only screen and (max-width: 374px) and (min-width: 320px) {
+  .card-nft {
+    width: 250px !important;
+  }
+}
+
 @media screen and (max-width: 853px) {
   .section-NFTs {
     width: 100%;
