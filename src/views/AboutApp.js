@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "../styles/aboutUs.css";
+
 
 export const AboutApp = () => {
     return (
@@ -28,9 +30,9 @@ export const AboutApp = () => {
                     Even though we don't have a predetermined date yet, we think at some point we will release our contracts to the main network so that Nicas NFT can start trading with real money.
                 </p>
                 <p className="p-information">
-                    I hope this short description of us and our Dapp has been helpful to you, to learn more details check our
+                    I hope this short description of us and our Dapp has been helpful to you, to learn more details check our 
                     <Link to="/terms-privacy">
-                        terms and privacy.
+                         terms and privacy.
                     </Link>
                 </p>
                 <h5 id="subtitle-bothers" className="text-left ml-5 mt-2 mb-4 ">
@@ -40,7 +42,7 @@ export const AboutApp = () => {
                     </span>
                     Built With.
                 </h5>
-                <ul className="d-flex mt-0 justify-content-around flex-wrap">
+                <ul className="d-flex mt-0 justify-content-around flex-wrap colorWhite">
                     <li className="m-4">
                         <p className="p-information">
                             React Js

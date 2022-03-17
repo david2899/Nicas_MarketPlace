@@ -11,6 +11,7 @@
 .creator-text h4 {
     font-size: 2rem;
     font-weight: 600;
+    color: white;
 }
 .icon-blockChain {
     color: #95cd41;
@@ -34,6 +35,7 @@
     font-weight: 500;
     font-family: 'Teko', sans-serif;
     text-align: justify;
+    color: white;
 }
 .img-david {
     max-width: 400px;
@@ -59,4 +61,12 @@
     #subtitle-bothers {
         margin-left: 0 !important;
     }
+}
+
+#subtitle-bothers{
+    color: white;
+}
+
+.colorWhite{
+    color: white;
 }

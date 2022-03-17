@@ -12,7 +12,10 @@ export const Navigation = () => {
 
   return (
     <nav id="navBar" className="navbar navbar-expand-lg navbar-light">
-      <img src={logoNav} alt="logo" className="navbar-brand" to="/home" />
+      <div className="containerLogo">
+      <img  src={logoNav} alt="logo" className="navbar-brand imgNft" to="/home" />
+      <p className="Beta">BETA</p>
+      </div>
       <button id="icon-collapse" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>

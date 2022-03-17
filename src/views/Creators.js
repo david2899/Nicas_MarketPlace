@@ -29,17 +29,17 @@ export const Creators = () => {
                         <div className="d-flex wrap-content">
                             <div className="d-flex flex-column">
                                 <img className="img-david" alt="David Img" src={davidIMG} />
-                                <span className="text-left ml-2 mt-1 font-weight-bold">
+                                <span className="text-left ml-2 mt-1 font-weight-bold colorWhite">
                                     <span className="mr-3">
                                         <i className="fas fa-user-graduate"></i>
                                     </span>
                                     David Exequiel Jiron</span>
                             </div>
-                            <div className="mt-2">
-                                <h6 className="text-center skills">Experience</h6>
+                            <div className="mt-2 colorWhite">
+                                <h6 className="text-center skills colorWhite">Experience</h6>
                                 <ul>
                                     <li>
-                                        <h5>
+                                        <h5 >
                                             Front End
                                         </h5>
                                         <p className="p-front-end">
@@ -71,13 +71,13 @@ export const Creators = () => {
                         <div className="d-flex wrap-content">
                             <div className="d-flex flex-column">
                                 <img className="img-david" alt="David Img" src={osmanyIMG} />
-                                <span className="text-left ml-2 mt-1 font-weight-bold">
+                                <span className="text-left ml-2 mt-1 font-weight-bold colorWhite">
                                     <span className="mr-3">
                                         <i className="fas fa-user-graduate"></i>
                                     </span>
                                     Osmany Jiron</span>
                             </div>
-                            <div className="mt-2">
+                            <div className="mt-2 colorWhite">
                                 <h6 className="text-center skills">Experience</h6>
                                 <ul>
                                     <li>

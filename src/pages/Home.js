@@ -18,7 +18,7 @@ export const Home = () => {
           "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false"
         );
         setCoins(res.data);
-        console.log(res.data);
+      // console.log(res.data);
       } catch (error) {
         console.error(error);
       }
@@ -30,6 +30,7 @@ export const Home = () => {
 
   return (
     <>
+      <div className="backgroundPage">
       <Navigation />
       <div className="content-video">
         <h2 className="title-img">Wellcome To Nicas NFT</h2>
@@ -40,13 +41,17 @@ export const Home = () => {
       <div className="Container-criptos">
       <div className="container">
       <div className="row">
-        <input
+        <div className="containerSearchCoins">
+      <i className="iconSearch fa-solid fa-magnifying-glass"></i>
+        <input 
+        id="inputID"
           type="text"
           placeholder="Search a Coin"
-          className="form-control bg-dark text-light border-0 mt-4 text-center"
-          autoFocus
+          className="form-control bg-dark text-light border-0 mt-4 text-center searchCoins"
           onChange={(e) => setSearch(e.target.value)}
+         
         />
+        </div>
 
         <TableCoins coins={coins} search={search} />
       </div>
@@ -92,7 +97,10 @@ export const Home = () => {
           <h5>Browse on a secure BlockChain</h5>
         </div>
       </div>
+
+
       <Footer />
+      </div>
     </>
   );
 };

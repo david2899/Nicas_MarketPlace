@@ -3,19 +3,19 @@
   width: 100%;
   z-index: 99;
   top: 0;
-  background-color: #343a40;
+  /* background-color: #343a40; */
+  background-color: #1A202C;
 }
 #navBar button {
   margin-right: 10px;
   padding: 0.9em;
   position: relative;
-  background: #343a40;
+  background: #95cd41;
   padding: 0.2em 0.2em;
   border: none;
   border-style: none;
-  color: #95cd41;
+  color: #171923;
   width: 110px;
-  border: 1px solid #fff;
   font-size: 1em;
   font-weight: bold;
   cursor: pointer;
@@ -25,7 +25,7 @@
 #navBar button:hover {
   border: none;
   background: #95cd41;
-  color: #343a40;
+  color: #ffffff;
   transition: all 400ms ease;
 }
 #linkActive {
@@ -95,3 +95,19 @@
     margin: 0 !important;
   }
 }
+.containerLogo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.Beta{
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0 0 0 0 !important;
+  margin-top: -9px !important;
+}
+
+.imgNft{
+  margin: 0 0 0 0 !important;}

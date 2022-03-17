@@ -10,9 +10,14 @@ export const Market = () => {
 
   return (
     <>
+    <div className="backgroundPage">
       <Navigation />
-      <div className="content-market">
+      <div className="content-market ">
+        
+        {/* <div className="col-md-3"> */}
        <FilterNFT />
+       {/* </div> */}
+       {/* <div className="col-md-9 cardss"> */}
         <section className="section-NFTs">
           {
             NFTs ?
@@ -44,6 +49,7 @@ export const Market = () => {
               )
           }
         </section>
+        </div>
         {/* <section className="section-filter">
         <h1>Holla</h1>
         </section>
@@ -54,6 +60,7 @@ export const Market = () => {
         </div> */}
       </div>
       <Footer />
+      {/* </div> */}
     </>
   )
 }

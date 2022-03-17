@@ -7,9 +7,9 @@ export const Footer = () => {
         <footer className="footer">
             <section className="contet-section">
                 <h5 className="text-social">Follow Us !</h5>
-                <img alt="icon-Facebook" className="icons-social" src="https://img.icons8.com/color/48/000000/facebook.png" />
-                <img alt="icon-Instagram" className="icons-social" src="https://img.icons8.com/color/48/000000/instagram-new--v2.png" />
-                <img alt="icon-Discord" className="icons-social" src="https://img.icons8.com/color/48/000000/discord--v2.png" />
+                <a href='https://www.facebook.com' target="_blank"><img alt="icon-Facebook" className="icons-social" src="https://img.icons8.com/color/48/000000/facebook.png"   /></a>
+                <a href='https://www.instagram.com/' target="_blank"><img alt="icon-Instagram" className="icons-social" src="https://img.icons8.com/color/48/000000/instagram-new--v2.png" /></a>
+                <a href='https://discord.com/' target="_blank"><img alt="icon-Discord" className="icons-social" src="https://img.icons8.com/color/48/000000/discord--v2.png" /></a>
             </section>
             <section className="contet-section  d-flex flex-column ">
                 <span className="with-love-by">With Love by David & Osmany
@@ -22,7 +22,7 @@ export const Footer = () => {
                 <h5 className="text-social">Activities !</h5>
                 <Link to="/create" >Create</Link>
                 <Link to="/shop">Shop</Link>
-                <Link to="/shop">Artists</Link>
+                <Link to="/artists">Artists</Link>
             </section>
         </footer>
     )

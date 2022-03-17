@@ -11,8 +11,8 @@ const CoinRow = ({ coin, index }) => {
           className="img-fluid me-4"
           style={{ width: "3%" }}
         />
-        <span>{coin.name}</span>
-        <span className="ms-3 text-muted">{coin.symbol}</span>
+        <span>{"  "+coin.name}</span>
+        <span className="ms-3 text-muted">{"  "+coin.symbol}</span>
       </td>
 
       <td>${coin.current_price.toLocaleString()}</td>

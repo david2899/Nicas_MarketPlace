@@ -8,12 +8,14 @@ import { Creators } from '../views/Creators';
 export const AboutUs = () => {
   return (
     <>
+    <div className="backgroundPage">
       <Navigation />
       <div className="row content flex-column pl-4 pt-2 pr-4 pb-2">
        <Creators />
        <AboutApp />
       </div>
       <Footer />
+      </div>
     </>
   )
 }

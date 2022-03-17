@@ -16,7 +16,7 @@
 .container-styky {
   width: 100%;
   position: fixed;
-  left: 5;
+  left: 5px;
 }
 .interior {
   padding: 5px;
@@ -26,7 +26,7 @@
   max-width: 300px;
 }
 .interior input {
-  width: 170px;
+  width: 200px;
 }
 .container-styky h4 {
   margin-top: 15px;
@@ -50,4 +50,8 @@
     position: fixed;
     margin-right: 0px;
   }
+}
+
+.filter,.categoryColor{
+  color: white;
 }
