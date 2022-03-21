@@ -20,7 +20,7 @@ export const Navigation = () => {
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse  navbar-collapse " id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav mr-auto paddingTop">
           <li className="nav-item ml-2">
             <Link style={location.pathname === home ? LinkActive : null} className="nav-link" to="/">
               <span>
@@ -108,7 +108,7 @@ export const Navigation = () => {
           <button className="btn btn-success my-2 my-sm-0" type="submit">
             Connect
             <span className="ml-2">
-              <i className="fas fa-arrow-right"></i>
+            <i className="fa-solid fa-circle-arrow-right"></i>
             </span>
           </button>
         </form>

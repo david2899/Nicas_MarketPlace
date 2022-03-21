@@ -18,6 +18,7 @@
   font-size: 4rem;
   font-weight: bold;
   font-family: "Shadows Into Light", cursive;
+  text-decoration: underline
 }
 .video-darkCountry {
   width: 100%;
@@ -121,7 +122,9 @@
 }
 
 #inputID::placeholder {
-  color: #95cd41;
+   /* color: #95cd41;  */
+   color: #a0aec094;
+  /* color: #28a745; */
   opacity: 1;
 }
 
@@ -144,10 +147,15 @@
 
 .fa-magnifying-glass:before, .fa-search:before {
   content: "\f002";
-  color: #95cd41 !important;
+  /* color: #95cd41 !important; */
+  color: #A0AEC0 !important;
   margin-top: 1.5rem!important
 }
 
 .backgroundPage{
   background-color: #171923;
+}
+
+.colorGreen{
+  color: #95cd41 !important;
 }

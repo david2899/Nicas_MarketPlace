@@ -16,7 +16,7 @@ const TableCoins = ({ coins, search }) => {
       <thead>
         <tr>
           {titles.map((title, i) => (
-            <td key={i}>{title}</td>
+            <td className="text-success font-weight-bold" key={i}>{title}</td>//text-success  colorGreen 
           ))}
         </tr>
       </thead>

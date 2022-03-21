@@ -42,15 +42,15 @@
   font-weight: 400;
   font-family: "Teko", sans-serif;
 }
-@media screen and (max-width: 853px) {
+/* @media screen and (max-width: 853px) {
   .container-styky {
-    display: none !important;
+     display: none !important; 
   }
   .section-filter {
     position: fixed;
     margin-right: 0px;
   }
-}
+} */
 
 .filter,.categoryColor{
   color: white;

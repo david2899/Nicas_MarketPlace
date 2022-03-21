@@ -7,6 +7,20 @@
   padding: 5px;
 }
 
+.content-market2 {
+  width: 100%;
+  background-color: #1a202c;
+  display: inline-flex;
+  height: auto;
+  position: relative;
+  padding: 5px;
+  margin-top: 90px !important;
+  position: fixed;
+  padding: 5px;
+  z-index: 999;
+  transition: all 900ms ease;
+}
+
 .section-NFTs {
   margin-right: 10px !important;
   display: flex;
@@ -121,3 +135,57 @@
   display: flex !important;
   justify-content: center !important;
 } */
+
+
+.containerFilterBy{
+  z-index: 9999;
+  position: fixed;
+  top: 90px;
+  width: 100%;
+  height: 40px;
+  background-color: #1a202c;
+  display: flex;
+  align-items: center;
+}
+
+.filterBy{
+  z-index: 99;
+    position: fixed;
+    left: 20px;
+    width: 60px;
+
+    margin-right: 10px;
+    padding: 0.9em;
+    position: relative;
+    background: #343a40!important;
+    margin-bottom: 10px;
+    height: 35px;
+    padding: 0.2em 0.2em;
+    border: none;
+    border-style: none;
+    color: #ffffff;
+    width: 110px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 400ms ease;
+}
+
+/* @media screen and (min-width: 854px) {
+  .containerFilterBy{
+    display: none !important;
+  }
+} */
+
+@media screen and (max-width: 853px){
+  .section-NFTs {
+    margin-right: 10px !important;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px !important;
+    top: 30px;
+    position: relative;
+    justify-content: center;
+}
+}

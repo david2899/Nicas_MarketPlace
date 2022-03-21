@@ -1,21 +1,47 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 import { Navigation } from "../components/Navigation";
 import { NFTs } from "../components/ArrayNFTs"
 import "../styles/market.css"
 import { Footer } from '../components/Footer';
 import { Skeleton } from '@mui/material';
 import { FilterNFT } from '../views/FilterNFT';
+import useWindowSize from "../custom-Hooks/screen-width";
+
 
 export const Market = () => {
+  const size = useWindowSize();
+
+  const [filterBy, setFilterBy] = useState(false);
+
+  const openFilterSection = () =>{
+    setFilterBy(true);
+  }
+
+  const closeFilterSection = () =>{
+    setFilterBy(false);
+  }
+
 
   return (
     <>
     <div className="backgroundPage">
       <Navigation />
+
+      { size.width <= 853 && (
+        <>
+      <div className='containerFilterBy'>
+      <button className='filterBy' onClick={filterBy === false ? openFilterSection :  closeFilterSection }> filter</button>
+      </div>
+      { filterBy === true ? <div className='content-market2'>
+      <FilterNFT />
+      </div> : null}
+      </>
+      ) }
       <div className="content-market ">
         
+        
         {/* <div className="col-md-3"> */}
-       <FilterNFT />
+        { size.width >= 854 && ( <FilterNFT /> ) }
        {/* </div> */}
        {/* <div className="col-md-9 cardss"> */}
         <section className="section-NFTs">

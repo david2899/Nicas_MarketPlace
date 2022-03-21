@@ -23,7 +23,7 @@
     border-top: 1px solid #0c0d0e;
 }
 .content-details-about {
-    padding: 15px;
+    padding: 10px;
     /* background-color: pink; */
     width: 100%;
     max-width: 2000px;
@@ -38,7 +38,7 @@
     color: white;
 }
 .img-david {
-    max-width: 400px;
+    max-width: 350px;
     max-height: 300px;
     border-radius: 15px;
 }
@@ -69,4 +69,10 @@
 
 .colorWhite{
     color: white;
+}
+
+.spacee{
+    padding-bottom: 20px !important;
+    display: flex;
+    justify-content: center;
 }
