@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { UseHistyles } from "../Hooks/UseHistyles";
 import "../styles/navBar.css";
-import { useLocation } from 'react-router-dom';
-import { home, aboutUs, market } from "../Utils/Pathnames";
+import { useLocation, useNavigate} from 'react-router-dom';
+import { home, aboutUs, market, user } from "../Utils/Pathnames";
 
 export const Navigation = () => {
   const { LinkActive } = UseHistyles()
+  const navigate = useNavigate()
   const location = useLocation();
   const logoNav = "https://scholarlykitchen.sspnet.org/wp-content/uploads/2021/03/NF-RGB_APNG-Logo-300x300.png";
 
@@ -105,7 +106,7 @@ export const Navigation = () => {
           </li> */}
         </ul>
         <form className="form-inline my-2 my-lg-0">
-          <button className="btn btn-success my-2 my-sm-0" type="submit">
+          <button onClick={() => navigate(user)} className="btn btn-success my-2 my-sm-0" >
             Connect
             <span className="ml-2">
             <i className="fa-solid fa-circle-arrow-right"></i>

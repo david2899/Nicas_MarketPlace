@@ -3,7 +3,6 @@ import "../styles/aboutUs.css";
 import davidIMG from "../assets/img/david.jpeg"
 import osmanyIMG from "../assets/img/Osmany.png"
 import hershiser from "../assets/img/hershiser.jpg"
-import { Link } from 'react-router-dom';
 
 export const Creators = () => {
     return (

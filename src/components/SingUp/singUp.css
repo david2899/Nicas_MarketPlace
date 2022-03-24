@@ -1,0 +1,102 @@
+.content-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto !important;
+    justify-content: center
+}
+.alert {
+    color: red !important;
+    text-align: initial;
+}
+.form {
+    z-index: 99;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px !important;
+    max-width: 500px !important;
+}
+.title{
+    color: #95cd41;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+fieldset {
+    border: 1px solid #fff !important;
+    border-radius: 10px !important;
+}
+input {
+    font-size: 1.3rem !important;
+    color: #95cd41 !important;
+}
+label {
+    color: #ed669f !important;
+}
+#btn-submit {
+    transition: all 500ms ease !important;
+    color: #95cd41 !important;
+    border: 1px solid #ed669f;
+}
+#btn-submit:focus {
+    color: #ed669f !important;
+    background-color: transparent !important;
+    border: 1px solid #ed669f;
+}
+#btn-submit:hover {
+    border: none;
+    box-shadow: 0 0 30px 0 #ed669f;
+    border: 3px solid #ed669f;
+    background-color: #ffd;
+    color: #161616 !important;
+    font-weight: bold;
+}
+.content-buttons {
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+}
+.btn-to-Singning {
+    cursor: pointer;
+    color: #95cd41 !important;
+}
+.btn-to-Singning {
+    cursor: pointer;
+    background: transparent !important;
+    color: #95cd41 !important;
+    border: none !important;
+}
+.content-img img {
+    position: relative;
+    height: 70%;
+    width: 100% !important;
+ }
+.content-buttons span {
+  color: #fff;
+  margin-left: 10px;
+}
+@media screen and (max-width: 767px) {
+    input {
+        font-size: 1rem !important;
+    }
+   .container {
+       max-width: 100% !important;
+       margin: 0px !important;
+   }
+    .content-img {
+       width: 300px;
+    }
+    .content-img img {
+        position: relative;
+        width: 400px;
+        height: 500px;
+     }
+}
+@media screen and (max-width: 599px) {
+    
+    .content-img {
+        position: absolute;
+        filter: blur(2px);
+    }
+}

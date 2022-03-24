@@ -1,0 +1,44 @@
+
+.content-activities{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.content-activities p{
+    color: #fbbae5;
+    margin-left: 10%;
+    font-size: 1.2rem;
+}
+.icons-activities {
+    color: rgb(226, 199, 46);
+    width: 20px;
+    height: 20px;
+}
+ul li { 
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+li h4 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.content-text {
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.content-text h1 {
+    font-size: 3.5rem;
+    color: #fbbae5;
+}

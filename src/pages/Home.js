@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { Navigation } from "../components/Navigation";
 import "../styles/home.css";
-import { darkCountry } from "../assets/videos";
+// import { darkCountry } from "../assets/videos";
 import { Footer } from "../components/Footer";
 import { buildNFTImg, collectImg } from "../assets/img";
 import axios from "axios";
 import TableCoins from "../components/TableCoins";
+import { Activities } from "../components/Activities/Activities";
 
 export const Home = () => {
 
@@ -58,7 +59,7 @@ export const Home = () => {
     </div>
         
       </div>
-      <h3 className="title-activities">Activities</h3>
+      {/* <h3 className="title-activities">Activities</h3>
       <div className="row justify-content-center pl-4 pt-2 pr-4 pb-2 mb-4">
         <div className="box">
           <img alt="img" src={collectImg} />
@@ -96,8 +97,8 @@ export const Home = () => {
           />
           <h5>Browse on a secure BlockChain</h5>
         </div>
-      </div>
-
+      </div> */}
+    <Activities />
 
       <Footer />
       </div>

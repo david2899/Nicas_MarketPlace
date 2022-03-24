@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import { Navigation } from "../components/Navigation";
 import { NFTs } from "../components/ArrayNFTs"
 import "../styles/market.css"
